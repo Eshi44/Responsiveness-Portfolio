@@ -14,9 +14,39 @@
   
   <style>
 
-.navbar-nav {
-    font: black;
+a {
+    color: grey;
+    text-decoration: none;
 }
+
+.navbar-light a.navbar-brand{ 
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.navbar-light a.navbar-brand:hover {
+    text-decoration: underline;
+    color: rgb(71, 71, 71);
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(71, 71, 71);
+}
+
+
+
+.container div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font: grey;
+
+}
+
+
   </style>
   
     </head>
@@ -27,17 +57,17 @@
 
         <div class="container">
             <nav class="navbar navbar-expand-xs navbar-light bg-light">
-              <a class="navbar-brand" href="#">Your Name</a>
+              <a class="navbar-brand" href="#Your-Name">Your Name</a>
             <div>
               <ul>
                 <li>
-                    <a href="#">About</a>
+                    <a class="about" href="#About">About</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#Portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#Contact">Contact</a>
                 </li>
             </ul>
         </div>
