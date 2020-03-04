@@ -22,12 +22,24 @@ footer {
     text-align: center;
 }
 
+#cat {
+    height: 30%;
+    width: 30%;
+}
+
+div#small-row {
+    background-color:  #59aaa5;
+   position: absolute;
+   width: 100%;
+   bottom: 30px;
+   padding: 40px;
+   
+}
 
 div.container {
     position:relative;
     width: 100%;
     margin: 0%;
-
 }
 
 div.col-sm-2 {
@@ -36,10 +48,6 @@ div.col-sm-2 {
 
 div#small-row {
      background-color:  #59aaa5;
-    position: absolute;
-    width: 100%;
-    bottom: 30px;
-    padding: 40px;
 }
 
 #nav-barr {
@@ -53,7 +61,6 @@ div#small-row {
 
 #nav-barrr {
     background-color: white;
-    /*float: right;*/
     height: 80px;
     width: 100%;
     padding-top: 25px;
@@ -63,22 +70,33 @@ div#small-row {
     background-color: white;
 }
 
-.wrapper {
-  
-  width: 1024px;
-}
-
-.navbar-light a.navbar-brand{ 
+.navbar-light a.navbar-brand { 
     color: white;
     font-size: 30px;
-padding: 0px;
+    padding: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
-
 
 .navbar-light a.navbar-brand:hover {
     text-decoration: underline;
     color: rgb(71, 71, 71);
+
+}
+
+#box {
+    background-color: white;
+    margin-top: 10%;
+    height: 400px;
+}
+
+#myHeader {
+    color:#59aaa5;
+    font:bold;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid rgb(192, 192, 192);
 
 }
 
@@ -87,10 +105,7 @@ padding: 0px;
     display: inline-block;
     margin-left: 25px;
     font: grey;
-    float: right;
-
 }
-
 
 a:hover {
     text-decoration: underline;
@@ -102,25 +117,18 @@ a:hover {
     max-width: 2240px;
    
 }
+/*
+@media (min-width: 769px) {
+    #nav-barr {
+        margin-left: 30%;
+        font-size: 500px;
+    }
 
-@media screen and (max-width: 320px) {
-
-  .wrapper {
-   
-    width: 100%;
-    padding: 20px;
+    */
   }
-
-  #nav-barr,
-  #nav-barrr {
-    width: 100%;
-    display:inline-grid;
-    clear:left;
-  }
-  .navbar-brand {
-    text-align: center;
-  }
-
   
-
-}
+  @media (min-width: 769px) {
+    .container div ul li {
+      float: right;
+    }
+  }

@@ -1,0 +1,142 @@
+a {
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  
+    background-image: url("background.jpg");
+    z-index: -1;
+}
+
+footer {
+    background-color: grey;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#exampleInputMessage {
+    padding:6%
+}
+
+#box {
+    background-color: white;
+    margin-top: 5%;
+    height: 510px;
+}
+
+#btnbtn {
+    background-color: #59aaa5;
+    border-color: #59aaa5;
+}
+
+div.container {
+    position:relative;
+    width: 100%;
+    margin: 0%;
+
+}
+
+#myHeader {
+    color:#59aaa5;
+    font:bold;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid rgb(192, 192, 192);
+
+}
+div.col-sm-2 {
+    padding:0px
+}
+
+div#small-row {
+     background-color:  #59aaa5;
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    padding: 40px;
+}
+
+#nav-barr {
+    background-color:  #59aaa5 !important;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    
+}
+
+#nav-barrr {
+    background-color: white;
+    /*float: right;*/
+    height: 80px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+#onenav{
+    background-color: white;
+}
+
+.wrapper {
+  
+  width: 1024px;
+}
+
+.navbar-light a.navbar-brand{ 
+    color: white;
+    font-size: 30px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar-light a.navbar-brand:hover {
+    text-decoration: underline;
+    color: rgb(71, 71, 71);
+
+}
+
+
+.container div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font: grey;
+
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(71, 71, 71);
+}
+
+@media (min-width:1200px)
+{.container {
+    max-width: 2240px;
+   
+}
+/*
+@media (min-width: 769px) {
+    #nav-barr {
+        margin-left: 30%;
+        font-size: 500px;
+    }
+
+    */
+  }
+  
+  @media (min-width: 769px) {
+    .container div ul li {
+      float: right;
+    }
+  }
