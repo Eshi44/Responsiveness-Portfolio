@@ -12,42 +12,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="styleindex.css">
   
-  <style>
 
-a {
-    color: grey;
-    text-decoration: none;
-}
-
-.navbar-light a.navbar-brand{ 
-    color: white;
-    font-size: 30px;
-}
-
-
-
-.navbar-light a.navbar-brand:hover {
-    text-decoration: underline;
-    color: rgb(71, 71, 71);
-
-}
-
-a:hover {
-    text-decoration: underline;
-    color: rgb(71, 71, 71);
-}
-
-
-
-.container div ul li {
-    display: inline-block;
-    margin-left: 25px;
-    font: grey;
-
-}
-
-
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
     </head>
    
@@ -56,9 +22,15 @@ a:hover {
     <body>
 
         <div class="container">
-            <nav class="navbar navbar-expand-xs navbar-light bg-light">
+            <div class="row">
+                <div class="col-sm-1" ID="onenav">
+
+                </div>
+                <div class= "col-sm-2">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light" ID="nav-barr">
               <a class="navbar-brand" href="#Your-Name">Your Name</a>
-            <div>
+                </div>
+                <div class="col-sm-9" ID="nav-barrr">
               <ul>
                 <li>
                     <a class="about" href="#About">About</a>
@@ -69,10 +41,29 @@ a:hover {
                 <li>
                     <a href="#Contact">Contact</a>
                 </li>
-            </ul>
+                </ul>
+             </div>
+                
+                </nav>
+                
+             </div>
+            </div>
         </div>
-          </nav>
-        </div>
+        <section class="row">
+            <div class="col-sm-12" ID="small-row">
+        
+            </div>
+            
+            </section>
+        <footer>
+            <div class="row">
+            <div class="col-sm-12">
+            <p>
+                &copy; Copyright
+            </p>
+            </div>
+            </div>
+        </footer>
 
     </body>
 </html>

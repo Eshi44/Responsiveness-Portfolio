@@ -1,0 +1,126 @@
+a {
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  
+    background-image: url("background.jpg");
+    z-index: -1;
+}
+
+footer {
+    background-color: grey;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+div.container {
+    position:relative;
+    width: 100%;
+    margin: 0%;
+
+}
+
+div.col-sm-2 {
+    padding:0px
+}
+
+div#small-row {
+     background-color:  #59aaa5;
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    padding: 40px;
+}
+
+#nav-barr {
+    background-color:  #59aaa5 !important;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    
+}
+
+#nav-barrr {
+    background-color: white;
+    /*float: right;*/
+    height: 80px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+#onenav{
+    background-color: white;
+}
+
+.wrapper {
+  
+  width: 1024px;
+}
+
+.navbar-light a.navbar-brand{ 
+    color: white;
+    font-size: 30px;
+padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar-light a.navbar-brand:hover {
+    text-decoration: underline;
+    color: rgb(71, 71, 71);
+
+}
+
+
+.container div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font: grey;
+    float: right;
+
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(71, 71, 71);
+}
+
+@media (min-width:1200px)
+{.container {
+    max-width: 2240px;
+   
+}
+
+@media screen and (max-width: 320px) {
+
+  .wrapper {
+   
+    width: 100%;
+    padding: 20px;
+  }
+
+  #nav-barr,
+  #nav-barrr {
+    width: 100%;
+    display:inline-grid;
+    clear:left;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+
+  
+
+}
